@@ -28,4 +28,84 @@
       </root>
     </mxGraphModel>
   </diagram>
+</mxfile><mxfile host="app.diagrams.net" version="29.0.3">
+  <diagram name="Main">
+    <mxGraphModel
+      dx="1200"
+      dy="800"
+      grid="1"
+      gridSize="10"
+      guides="1"
+      tooltips="1"
+      connect="1"
+      arrows="1"
+      fold="1"
+      page="1"
+      pageScale="1"
+      pageWidth="850"
+      pageHeight="1100"
+      math="0"
+      shadow="0">
+
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ================= POMPA ================= -->
+        <mxCell
+          id="POMPA_1"
+          value="POMPA_1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B0BEC5;"
+          vertex="1"
+          parent="1">
+          <mxGeometry x="360" y="100" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ================= VALVE ================= -->
+        <mxCell
+          id="VALVE_1"
+          value="VALVE_1"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F44336;"
+          vertex="1"
+          parent="1">
+          <mxGeometry x="360" y="220" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ================= TANK ================= -->
+        <mxCell
+          id="LEVEL_TANK"
+          value="LEVEL_TANK"
+          style="rounded=1;whiteSpace=wrap;html=1;fillColor=#00ACC1;"
+          vertex="1"
+          parent="1">
+          <mxGeometry x="360" y="340" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- =============== PIPE 1 ================= -->
+        <mxCell
+          id="PIPE_1"
+          value=""
+          style="endArrow=classic;html=1;strokeWidth=2;"
+          edge="1"
+          parent="1"
+          source="POMPA_1"
+          target="VALVE_1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- =============== PIPE 2 ================= -->
+        <mxCell
+          id="PIPE_2"
+          value=""
+          style="endArrow=classic;html=1;strokeWidth=2;"
+          edge="1"
+          parent="1"
+          source="VALVE_1"
+          target="LEVEL_TANK">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
